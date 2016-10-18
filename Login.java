@@ -21,8 +21,7 @@ public class Login {
 		
 		} else {
 		System.out.println("Enter password");
-		String ccNo2 = keyboard.nextLine();
-		@SuppressWarnings("unused")
+		String ccNo2 = keyboard.nextLine();	
 		String ccString2 = String.valueOf(ccNo2);
 		System.out.println("Wrong username or password");
 		}
